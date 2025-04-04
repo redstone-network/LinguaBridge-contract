@@ -4,6 +4,7 @@
     "test": "npx hardhat test",
     "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
     "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:zerog": "npx hardhat run scripts/deploy.js --network zerog",
     "compile": "npx hardhat compile",
     "node": "npx hardhat node"
   },
@@ -25,6 +26,7 @@
     "typechain": "^8.3.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.2.0"
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7"
   }
 }
